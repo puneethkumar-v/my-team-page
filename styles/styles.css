@@ -20,6 +20,7 @@ p {
 }
 .container {
   max-width: 1440px;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -69,6 +70,20 @@ h1 {
   top: 50px;
   right: -50px;
   transform: rotate(90deg);
+}
+footer {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  /* margin: 2rem 0; */
+  margin-top: 6rem;
+}
+.credits,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1113px) {
